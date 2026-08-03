@@ -1,0 +1,57 @@
+.Card {
+    backdrop-filter: blur(2px);
+    border: 1px solid #891652;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+    text-align: center;
+    text-align: left;
+    background: #6A1E55;
+    box-sizing: border-box;
+}
+
+.Card:hover {
+    background: #A64D79;
+}
+
+p {
+    font-size: 16px;
+}
+
+.title {
+    color:white;
+    font-size: 24px;
+}
+
+.description {
+    color:white;  
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 15px;
+}
+
+.likeButtonCard {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    color:white;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+.likeButton:hover {
+    border-color: #3B1C32;
+  }
+
+.moreButton {
+    width: 30px;
+    float:right;
+
+}
+.moreButton:hover {
+    cursor: pointer;
+}

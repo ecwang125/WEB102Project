@@ -1,0 +1,12 @@
+.likeButton {
+    background-color: #464858;
+}
+
+.likeButton:hover {
+    border-color: #3B1C32;
+}
+
+.postActions {
+  display: flex; /* Sets layout to a horizontal row */
+  gap: 800px;
+}

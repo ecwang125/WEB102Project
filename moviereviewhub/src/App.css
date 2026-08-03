@@ -1,0 +1,91 @@
+.App {
+  font-family:Avenir, "Century Gothic", sans-serif;
+  font-weight:100; 
+  font-style:normal;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App > *:not(.header) {
+  width: min(90vw, 1100px);
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 20px 0 40px;
+}
+
+.header {
+  width: 100%;
+  color: white;
+  background-color: #3B1C32;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.headerButtons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header h4 {
+  text-align: left;
+  padding-left: 0;
+  margin: 0px;
+}
+
+.headerBtn {
+  margin: 0;
+  text-align: right;
+}
+
+.ReadPosts {
+  display: flex;
+  flex-direction: column;
+  width: min(90vw, 1100px);
+  margin: 0 auto 10px;
+  color: white;
+  size: 5px;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #3B7597;
+  color:white;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 2px;
+}
+
+button:hover {
+  border-color: black;
+}
+
+.review-search {
+  width: 600px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+}
+
+.deleteButton {
+    background-color: #AA1C41;
+}
